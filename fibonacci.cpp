@@ -1,13 +1,14 @@
+//1. Display the results in a more organized matter. 
+//2. Give an approximation besides 2 iterations (Golden Ratio if appropriate outputs)
+//3. Output everything in a file?
+
 #include<iostream>
 
 void requestNum(long double&, long double&, long double&);
 void performFib(long double&, long double&, long double&);
-void goldenRatio();
-
 
 int main()
 {
-		//Plus put all of it in a file??
 	long double x;
 	long double y;
 	long double n;
@@ -24,7 +25,7 @@ void requestNum(long double& x, long double& y, long double& n)
 	using std::cout;
 	using std::cin;
 
-	cout << "Welcome! This is a Fibonacci-like sequence generator :))\n\n";
+	cout << "Welcome! This is a Fibonacci-like sequence generator :\n\n";
 	cout << "Please, enter your first number: ";
 	cin >> x;
 	cout << "How about the second number?: ";
@@ -39,17 +40,13 @@ void performFib(long double& x, long double& y, long double& n)
 
 		for (int i = 0; i < n; i++)
 	{
-			using std::cout;
-			using std::endl;
+		using std::cout;
+		using std::endl;
+		
 		cout << x << endl;
 
 		fib = x + y;
 		x = y;
 		y = fib;
 	}
-}
-
-void goldenRatio()
-{
-
 }
