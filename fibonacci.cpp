@@ -1,4 +1,4 @@
-//1. Display the results in a more organized matter. 
+//1. Display the results in a more organized manner. 
 //2. Give an ratio approximation besides 2 iterations (Golden Ratio if appropriate outputs)
 //3. Output everything in a file?
 
