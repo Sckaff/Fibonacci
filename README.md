@@ -1,7 +1,23 @@
-# Fibonacci Application
+## Fibonacci Application
 
-Simple Fibonacci sequence program who also gives information about how close it is to the actual Golden Ratio.
+Fibonacci application in which it can retrieve a term or 
+make your own fibonacci-like sequence.
 
-Feel free to make a pull :)) 
+#To Do 
 
-Thanks for reading it!
+- [ ] Implement the C++ program on the .NET framework
+- [ ] Add the Golden Ratio difference onto Fib. Sequences
+- [ ] Add colors! 
+
+#Questions
+
+Is it possible to retrieve past the 93th term? 
+
+Is it possible to include colors on thet .NET framework? 
+
+#Problems
+
+Unsigned Long Long Int only supports numbers at about 20 digits (at most)
+
+Lack of .NET framework knowledge
+
